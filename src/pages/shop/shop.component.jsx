@@ -1,28 +1,11 @@
 import React from 'react';
-import SHOP_DATA from './shop.data';
+//import SHOP_DATA from './shop.data';
+import CollectionsOverview from '../../components /collections-overview/collection-overview.componet';
 
-import CollectionPreview from '/home/aneesh/Desktop/ecomm/crwn-app/src/components /preview-collection /preview-collection.component.jsx'
 
-class ShopPage extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            collections: SHOP_DATA
-        };
-    }
-    render() {
-        return (
-            <div className= 'shop-page'>
-            <h1>Collections</h1>
-        {
-            this.state.collections.map(({ id, ...otherCollectionProps}) => (
-                <CollectionPreview key={id} {...otherCollectionProps}/> 
-                ))
-            }
+const ShopPage = ({ collections }) => (
+        <div className= 'shop-page'>
+          <CollectionsOverview/>
        </div>
    )
- }
-}
-
-
 export default ShopPage;
