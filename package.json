@@ -16,6 +16,9 @@
     "redux-persist": "^6.0.0",
     "reselect": "^4.0.0"
   },
+  "engines": {
+    "node": "12.13.0"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
