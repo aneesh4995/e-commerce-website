@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './preview-collection.styles.scss';
-import CollectionItem from '/home/aneesh/Desktop/ecomm/crwn-app/src/components /collection-item/collection-item.component.jsx'
+import CollectionItem from '../collection-item/collection-item.component'
 
 
 const CollectionPreview = ({ title, items }) => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import CollectionsOverview from '/home/aneesh/Desktop/ecomm/crwn-app/src/components /collections-overview/collection-overview.componet.jsx';
+import CollectionsOverview from '../../components /collections-overview/collection-overview.componet';
 import CollectionPage from '../collection/collection.component';
 
 const ShopPage = ({ match }) => (

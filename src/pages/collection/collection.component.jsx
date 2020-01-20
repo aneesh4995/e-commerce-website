@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import CollectionItem from '/home/aneesh/Desktop/ecomm/crwn-app/src/components /collection-item/collection-item.component.jsx';
+import CollectionItem from '../../components /collection-item/collection-item.component';
 
-import { selectCollection } from '/home/aneesh/Desktop/ecomm/crwn-app/src/redux/shop/shop.selector.js';
+import { selectCollection } from '../../redux/shop/shop.selector';
 
 import './collection.styles.scss';
 
